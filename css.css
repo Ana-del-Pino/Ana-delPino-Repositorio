@@ -1,1 +1,247 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;900&display=swap');
+body{
+    margin: 0;
+    background-color: rgb(252, 227, 227);
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    padding-top: 2em;
+    background-color: brown;
+    width:100%;
+    height: 18em;
+}
+.centrar{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+.subtitulo{
+    margin-top: 3em;
+    color: cornsilk;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 10px;
+}
+
+#imagen1{
+    width:100%;
+    margin-bottom: 50px;
+}
+#imagen2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.img-abajo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+h2 {
+    color: brown;
+    text-transform: uppercase;
+}
+h3{
+    color: brown;
+    text-align: center;
+}
+.light{
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: 900;
+}
+.txt-abajo{
+margin-left:30px;
+margin-right: 30px;
+}
+/*************************grid body******************************/
+.grid-container1{
+    display: grid;
+    grid-template-areas:
+    'img  img  img'
+    'txt1 txt1 img2'
+    'c1   c2   c3';
+    width: 100%;
+  }
+  .item1-1{
+    grid-area: img;
+  }
+  .item1-2{
+    grid-area: txt1;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .item1-3{
+    grid-area: img2;
+    margin-bottom: 3em;
+    margin-right: 0px;
+  }
+  .item1-4{
+    grid-area: c1;
+
+  }
+  .item1-5{
+    grid-area: c2;
+
+  }
+  .item1-6{
+    grid-area: c3;
+
+  }
+  /*************************grid footer*********************/
+  .item2-1{
+	grid-area:titulo1
+  }
+  .item2-2{
+	grid-area:info1;
+  }
+  .item3-2{
+	grid-area: info2;
+  }
+  .item4-2{
+	grid-area: info3;
+  }
+  .item5-2{
+	grid-area: info4;
+  }
+  .item6-2{
+	grid-area:titulo2;
+  }
+  .item7-2{
+	grid-area: info5;
+  }
+  .item8-2{
+	grid-area:info6;
+  }
+  .item9-2{
+	grid-area: titulo3;
+  }
+  .item10-2{
+	grid-area:info7;
+  }
+  .item11-2{
+	grid-area:info8;
+  }
+  .item12-2{
+	grid-area:info9;
+  }
+  .item13-2{
+	grid-area:info10;
+  }
+  .item14-2{
+	grid-area:titulo4;
+  }
+  .item15-2{
+  grid-area:info11;
+  margin-top: -1.5em;
+  margin-right: 3em;
+  margin-left: 2em;
+  }
+  .item16-2{
+	grid-area:info12;
+  }
+  .grid-container2{
+    display: grid;
+    grid-template-areas: 
+    'titulo1 titulo2 titulo3 titulo4'
+    'info1 info5 info7 info11'
+    'info2 info5 info8 info11'
+    'info3 info6 info9 info12'
+    'info4 info6 info10 info12';
+    width: 100%;
+    background-color: brown;
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    }
+
+/*******************************footer******************************/
+#h4-footer{
+    color:rgb(252, 227, 227);
+    font-family: 'Titillium Web', sans-serif;
+	  font-weight: 400; 
+	  font-size: 20px;
+	  margin-bottom: 1em;
+  }
+  #texto-footer{
+	  color: #000000;
+      font-family: 'Titillium Web', sans-serif;
+	  font-size: 0.9em;
+  }
+	.fa-facebook-square{
+		color: rgb(235, 121, 121);
+		cursor:pointer;
+		display: inline-block;
+		font-size: 3em;
+		transition-duration: 0.4s;
+		margin-top:-1em;
+		margin-right:0.3em;
+	}
+	.fa-facebook-square:hover{
+		color:#ffffff;
+	}
+	.fa-twitter-square{
+		color: rgb(235, 121, 121);
+		cursor:pointer;
+		display: inline-block;
+		font-size: 3em;
+		transition-duration: 0.4s;
+		margin-top:-1em;
+		margin-right:0.3em;
+	}
+	.fa-twitter-square:hover{
+		color:#ffffff;
+	}
+	.fa-google-plus-square{
+		color: rgb(235, 121, 121);
+		cursor:pointer;
+		display: inline-block;
+		font-size: 3em;
+		transition-duration: 0.4s;
+		margin-top:-1em;
+		
+	}
+	.fa-google-plus-square:hover{
+		color:#ffffff;
+	}
+  #link-footer{
+	color:#000000;
+    font-family: 'Titillium Web', sans-serif;
+	font-size: 1em;
+	}
+	#link-footer:hover{
+	text-decoration: underline;
+    transition-duration: 0.4s;
+    color:rgb(235, 121, 121);
+  }
+    #item-2{
+      margin-left:2em;
+      margin-top: -0.7em;
+        }
+    #item2-2{
+      margin-left:2em;
+      margin-top: 2em;
+    }
+      
+      #pie {
+        text-align: left;
+        margin: 2em 0;
+      }
+      .arriba{
+        text-align: left;
+        margin-left: 2em;
+        margin-top: 3.5em;
+      }
+      ul.bottom li{
+        display:inline-block;
+        width: fit-content;
+      }
+      footer{
+        margin-top: 5em;
+      }
